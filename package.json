@@ -1,0 +1,28 @@
+{
+    "name": "user-notification-api",
+    "version": "1.0.0",
+    "description": "A Nest.js API for user notification preferences and notifications.",
+    "main": "dist/main.js",
+    "scripts": {
+      "start": "nest start",
+      "start:dev": "nest start --watch",
+      "test": "jest",
+      "build": "nest build",
+      "lint": "eslint \"src/**/*.ts\" --fix"
+    },
+    "dependencies": {
+      "@nestjs/common": "^9.0.0",
+      "@nestjs/core": "^9.0.0",
+      "@nestjs/mongoose": "^9.0.0",
+      "@nestjs/platform-express": "^9.0.0",
+      "class-validator": "^0.14.0",
+      "mongoose": "^6.0.0"
+    },
+    "devDependencies": {
+      "@nestjs/cli": "^9.0.0",
+      "@nestjs/schematics": "^9.0.0",
+      "jest": "^28.0.0",
+      "typescript": "^4.5.0"
+    }
+  }
+  
